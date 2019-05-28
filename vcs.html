@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/vcs.css"/>
+  <title>GitHub VCS - Sam J</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="../../links/links.css"/>
+    <script src="../../links/links.js"></script>
+    <div include-html="https://www.westada.tech/a1/samj/links/links.html"></div> 
+    <script>
+      includeHTML();
+    </script>
+  <div class="grid-container">
+    <div class="item0">
+      <h2 class="titleh1">GitHub VCS</h2>
+      <h3> (By Sam J) </h3>
+    </div>
+    <div class="item1">
+      <h3>Benefits of Using GitHub</h3>
+      <p></p>
+      <hr/>
+      <h3>Steps</h3>
+      <pre>
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git
+[sudo] password for user: *****
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Need to get 3,907 kB of archives.
+Fetched 3,907 kB in 2s (2,546 kB/s)
+(Reading database ... 280033 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.17.1-1ubuntu0.4_amd64.deb ...
+Unpacking git (1:2.17.1-1ubuntu0.4) over (1:2.17.1-1ubuntu0.1) ...
+Setting up git (1:2.17.1-1ubuntu0.4) ...
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version
+git version 2.17.1
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install gedit
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  gedit-common
+Suggested packages:
+  gedit-plugins
+The following NEW packages will be installed:
+  gedit gedit-common
+0 upgraded, 2 newly installed, 0 to remove and 633 not upgraded.
+Need to get 544 kB of archives.
+After this operation, 5,000 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gedit-common all 3.28.1-1ubuntu1.1 [137 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gedit amd64 3.28.1-1ubuntu1.1 [407 kB]
+Fetched 544 kB in 1s (435 kB/s)
+Selecting previously unselected package gedit-common.
+(Reading database ... 280035 files and directories currently installed.)
+Preparing to unpack .../gedit-common_3.28.1-1ubuntu1.1_all.deb ...
+Unpacking gedit-common (3.28.1-1ubuntu1.1) ...
+Selecting previously unselected package gedit.
+Preparing to unpack .../gedit_3.28.1-1ubuntu1.1_amd64.deb ...
+Unpacking gedit (3.28.1-1ubuntu1.1) ...
+Processing triggers for gconf2 (3.2.6-4ubuntu1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23+linuxmint3) ...
+Processing triggers for libglib2.0-0:amd64 (2.56.1-2ubuntu1) ...
+Setting up gedit-common (3.28.1-1ubuntu1.1) ...
+Setting up gedit (3.28.1-1ubuntu1.1) ...
+update-alternatives: using /usr/bin/gedit to provide /usr/bin/gnome-text-editor (gnome-text-editor) in auto mode
+Processing triggers for man-db (2.8.3-2) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name "username"
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email "user.email@example.com"
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --help
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ cd /home/compsci/html/samj/projects/vcs
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git init
+Initialized empty Git repository in /var/www/html/samj/projects/vcs/.git/
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git status
+On branch master
+
+No commits yet
+          
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+          
+  <font color="#CC0000">css/</font>
+  <font color="#CC0000">images/</font>
+  <font color="#CC0000">vcs.html</font>
+          
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ ll
+total 28
+drwxrwxr-x  6 compsci compsci 4096 May 23 09:09 ./
+drwxrwxrwx 20 compsci compsci 4096 May 23 09:05 ../
+drwxrwxr-x  2 compsci compsci 4096 May 23 07:51 css/
+drwxr-xr-x  7 compsci compsci 4096 May 28 08:02 .git/
+drwxrwxr-x  2 compsci compsci 4096 May 13 07:54 images/
+drwxrwxr-x  2 compsci compsci 4096 Jan 24 09:00 js/
+-rw-r--r--  1 compsci compsci 2784 May 28 08:03 vcs.html
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ touch .gitignore
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ gedit .gitignore
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git add -A
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git status
+On branch master
+
+No commits yet
+  
+Changes to be committed:
+  (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
+  
+  <font color="#4E9A06">new file:   .gitignore</font>
+  <font color="#4E9A06">new file:   css/vcs.css</font>
+  <font color="#4E9A06">new file:   images/background.jpeg</font>
+  <font color="#4E9A06">new file:   images/backgroundsnow.jpeg</font>
+  <font color="#4E9A06">new file:   vcs.html</font>
+  
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+  
+  <font color="#CC0000">modified:   vcs.html</font>
+
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git reset
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git commit -m "Initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	.gitignore
+	css/
+	images/
+	vcs.html
+
+nothing added to commit but untracked files present
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git log
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ midir GitHubClones
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ cd GitHubClones
+  </pre>
+      </div>
+    </div>
+</body>
+</html>
