@@ -126,21 +126,98 @@ Changes not staged for commit:
 
 <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git reset
 <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git commit -m "Initial commit"
-On branch master
-
-Initial commit
-
-Untracked files:
-	.gitignore
-	css/
-	images/
-	vcs.html
-
-nothing added to commit but untracked files present
+[master (root-commit) 193c720] Initial commit
+ 3 files changed, 330 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 css/vcs.css
+ create mode 100644 vcs.html
+compsci@compsci-VBox:~/html/sam
 <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git log
-<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ midir GitHubClones
+<font color="#C4A000">commit 193c7205c5fe6f6c47a2681178f77e1d23128216 (</font><font color="#34E2E2"><b>HEAD -&gt; </b></font><font color="#8AE234"><b>master</b></font><font color="#C4A000">)</font>
+Author: username &lt;user.email@example.com&gt;
+Date:   Tue May 28 08:33:37 2019 -0600
+  
+    Initial commit
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ mkdir GitHubClones
 <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ cd GitHubClones
-  </pre>
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs/GitHubClones</b></font>$ git clone https://github.com/CHS-McClendon/vcs_mrm.git
+Cloning into 'VCS_mrm'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+compsci@compsci-VBox:~/html/samj/projec
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs/GitHubClones</b></font>$ git diff
+<b>diff --git a/vcs.html b/vcs.html</b>
+<b>index 2cb996b..2e2de80 100644</b>
+<b>--- a/vcs.html</b>
+<b>+++ b/vcs.html</b>
+<font color="#06989A">@@ -126,20 +126,29 @@</font> Changes not staged for commit:
+   
+<font color="#CC0000">-On branch master</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-Initial commit</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-Untracked files:</font>
+<font color="#CC0000">-       .gitignore</font>
+<font color="#CC0000">-       css/</font>
+<font color="#CC0000">-       images/</font>
+<font color="#CC0000">-       vcs.html</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-nothing added to commit but untracked files present</font>
+<font color="#4E9A06">+[master (root-commit) 193c720] Initial commit</font>
+<font color="#4E9A06">+ 3 files changed, 330 insertions(+)</font>
+<font color="#4E9A06">+ create mode 100644 .gitignore</font>
+<font color="#4E9A06">+ create mode 100644 css/vcs.css</font>
+<font color="#4E9A06">+ create mode 100644 vcs.html</font>
+<font color="#4E9A06">+compsci@compsci-VBox:~/html/sam</font>
+<b>diff --git a/vcs.html b/vcs.html</b>
+<b>index 2cb996b..2e2de80 100644</b>
+<b>--- a/vcs.html</b>
+<b>+++ b/vcs.html</b>
+<font color="#06989A">@@ -126,20 +126,29 @@</font> Changes not staged for commit:
+   
+
+<font color="#CC0000">-On branch master</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-Initial commit</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-Untracked files:</font>
+<font color="#CC0000">-       .gitignore</font>
+<font color="#CC0000">-       css/</font>
+<font color="#CC0000">-       images/</font>
+<font color="#CC0000">-       vcs.html</font>
+<font color="#CC0000">-</font>
+<font color="#CC0000">-nothing added to commit but untracked files present</font>
+<font color="#4E9A06">+[master (root-commit) 193c720] Initial commit</font>
+<font color="#4E9A06">+ 3 files changed, 330 insertions(+)</font>
+<font color="#4E9A06">+ create mode 100644 .gitignore</font>
+<font color="#4E9A06">+ create mode 100644 css/vcs.css</font>
+<font color="#4E9A06">+ create mode 100644 vcs.html</font>
+<font color="#4E9A06">+compsci@compsci-VBox:~/html/sam</font>
+
+<span style="background-color:#EEEEEC"><font color="#232729">(END)</font></span>
+
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs/GitHubClones</b></font>$ cd ../
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git remote add origin https://github.com/username/a1VCS.git
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git pull origin master --allow-unrelated-histories
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$ git status
+On branch master
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+  
+  <font color="#CC0000">modified:   vcs.html</font>
+  
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+  
+  <font color="#CC0000">GitHubClones/</font>
+  
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/html/samj/projects/vcs</b></font>$
+</pre>
       </div>
     </div>
 </body>
